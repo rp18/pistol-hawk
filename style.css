@@ -1,0 +1,186 @@
+html,
+
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+a{
+	text-decoration: none;
+	color: hsl(12, 90%, 65%);
+
+}
+
+h1{
+	color: hsl(12, 90%, 65%);
+	font-family:'Brush Script MT';
+	font-size: 100px;
+}
+
+h2{
+	
+	text-align:left;
+	color: white;
+	font-family:'Brush Script MT';
+	font-size: 54px;
+
+}
+
+
+footer{
+
+	color: green;
+	margin: 0 auto;
+	text-align: right;
+}
+
+#top{
+	max-width: 100%;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 160%;
+}
+
+p {
+	font-family: 'Poiret One', cursive;
+	color: white;
+	font-size: 27px;
+}
+
+.wrap {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background: #120103;
+	color: #fff;
+	text-align: center;
+}
+
+header {
+	background: LightBlue;
+	/*box-shadow: 0 .5em 1em #111;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 900;
+	width: 100%;
+}
+
+header label {
+
+	color: #788188;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 4.25em;
+	font-size: .667em;
+	font-weight: bold;
+	padding: 0 1em;
+}
+
+header label:hover {
+	border-radius: 10px;
+	background: white;
+}
+
+.slide {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	z-index: 10;
+	padding: 8em 1em 0;
+	background-color: #120103;
+	background-position: 50% 50%;
+	background-size: cover;
+	transition: left 0s .75s;
+}
+
+.slide-one { background-image: url('http://captainkimo.com/wp-content/uploads/2011/10/lifeguard-on-duty-in-tower-at-south-beach-miami-seagull-flying.jpg'); }
+.slide-two { background-image: url('http://i.huffpost.com/gen/1565993/thumbs/o-MIAMI-SKYLINE-facebook.jpg'); }
+.slide-three { background-image: url('http://www.arshtcenter.org/Global/PressRoom/photos/hi/2015-2016/Arsht%20Center%20Exterior_Photo%20by%20WorldRedEye.jpg'); }
+.slide-four { 
+	background-color: white;
+	/*background-image: url('http://live-ourcrowd.time.ly/wp-content/uploads/2015/06/Miami-skyline-day.jpg'); */
+}
+
+[id^="slide"]:checked + .slide {
+	left: 0;
+	z-index: 100;
+	transition: left .65s ease-out;
+}
+
+.slide h1 {
+	opacity: 0;
+	transform: translateY (100%);
+	transition: transform .5s .5s, opacity .5s;
+}
+
+[id^="slide"]:checked + .slide h1 {
+	opacity: 1;
+	transform: translateY (0);
+	transition: all .5s .5s;
+}
+
+#all-users a {
+	background-color: rgb(200, 230, 255);
+	padding: 4px;
+	border-radius: 3px;
+}
+
+#story {
+	position: relative;
+}
+
+blockquote {
+  background: hsla(20, 100%, 94%, 0.55);
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+	font-size: medium;
+  display: inline;
+}
+
+.story-style {
+	display: flex;
+	position: absolute;
+	z-index: 3;
+	/*opacity: 0.6;*/
+}
+
+.story-style p {
+	opacity: 1.0;
+}
+
+#map{
+      height: 500px;
+        width: 100%;
+      }
+
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#user_list a {
+	text-decoration: none;
+	cursor: pointer;
+}
