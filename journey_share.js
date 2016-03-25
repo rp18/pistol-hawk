@@ -99,14 +99,14 @@ $(document).ready(function(){
         "<\/li>"
         )
     };
-
-       for (var i = 0; i < userIndex.length; i++) {
-      $("#user_list ul").append(
-        "<li id='" + userIndex[i].id + "' <\/li>" +
-        "<a>" + userIndex[i].name + "<\/a>" +
-        "<\/li>"
-        )
-    };
+    // a repeat of previous lines for some reason.
+    //   for (var i = 0; i < userIndex.length; i++) {
+    //   $("#user_list ul").append(
+    //     "<li id='" + userIndex[i].id + "' <\/li>" +
+    //     "<a>" + userIndex[i].name + "<\/a>" +
+    //     "<\/li>"
+    //     )
+    // };
 
     $('#all-users').on("click", function(){
       drawAllUsers(userIndex);
