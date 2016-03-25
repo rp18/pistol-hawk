@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script|Quattrocento+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="../css/style.css"/> -->
@@ -45,7 +46,9 @@
 
     <input id="slide-1-trigger" type="radio" name="slides" checked>
     <section class="slide slide-one">
-      <!-- <h2> Headline One </h2> -->
+      <div>
+        <h3>Welcome to Miami </h3>
+      </div> 
     </section>
     <input id="slide-2-trigger" type="radio" name="slides">
     <section class="slide slide-two">
@@ -69,14 +72,14 @@
         <div id="map"></div>
       </div>
       <!-- User content... hide/unhide? -->
-      <div id="user_list" class="col-sm-3 pull-right">
-        <ul>
+      <div id="user_list" class="col-sm-3 pull-right container">
+        <ul class='col-sm-6'>
           <li id="all-users"><a>All Travellers</a></li>
         </ul>
       </div>
       
     </section>
-
+    <div class="push"></div>
   </div>
 
 
@@ -86,9 +89,6 @@
     <p>&copy; Pistol & Hawk - Hack Reactor Prep 2016</p>
   </footer>
 
-  <span id="Our Project">
-    <h2>Our Project</h2>
-  </span>
 
   <script src="journey_share.js"></script>
 

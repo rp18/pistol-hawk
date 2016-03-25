@@ -9,7 +9,7 @@ body {
 	background-color: white;
 }
 
-a{
+a {
 	text-decoration: none;
 	color: hsl(12, 90%, 65%);
 
@@ -30,23 +30,43 @@ h2{
 
 }
 
+h3{
 
-footer{
+	color: #EBEBEB;
+	font-family:'Kaushan Script';
+	font-size: 35px;
 
-	color: green;
+}
+
+
+
+footer {
+
+	color: #F2F2F2;
 	margin: 0 auto;
 	text-align: right;
+	background: LightBlue;
+	padding-bottom: none;
+}
+
+footer, .push {
+    height: 45px;
+}
+
+footer p {
+	color: white;
+
 }
 
 #top{
 	max-width: 100%;
-	height: 100px;
+	height: 115px;
 	margin: 0 auto;
 	text-align: center;
 	font-size: 160%;
 }
 
-p {
+.descript p {
 	font-family: 'Poiret One', cursive;
 	color: white;
 	font-size: 27px;
@@ -73,7 +93,7 @@ header {
 }
 
 header label {
-
+	
 	color: #788188;
 	cursor: pointer;
 	display: inline-block;
@@ -128,10 +148,11 @@ header label:hover {
 	transition: all .5s .5s;
 }
 
+
 #all-users a {
 	background-color: rgb(200, 230, 255);
-	padding: 4px;
-	border-radius: 3px;
+/*	padding: 4px;
+	border-radius: 3px;*/
 }
 
 #story {
@@ -139,8 +160,8 @@ header label:hover {
 }
 
 blockquote {
-  background: hsla(20, 100%, 94%, 0.55);
-  border-left: 10px solid #ccc;
+  background: hsla(20, 100%, 94%, 0.60);
+  border-left: 10px solid hsl(12, 90%, 65%);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
@@ -167,6 +188,7 @@ blockquote p {
 
 .story-style p {
 	opacity: 1.0;
+	color: black;
 }
 
 #map{
@@ -183,4 +205,32 @@ blockquote p {
 #user_list a {
 	text-decoration: none;
 	cursor: pointer;
+}
+
+#all-users > a {
+	text-decoration: none;
+	cursor: pointer;
+	background-color: white;
+}
+
+#user_list ul {
+	/*background-color: lightBlue;*/
+	border-radius: 10px;
+	border: 2px solid lightBlue;
+	cursor: pointer;
+	width: 50%;
+}
+
+#user_list li {
+	margin: 4px 0px 4px 0px;
+}
+
+#user_list li:hover {
+	border: 2px solid lightBlue;
+	background-color: white;
+	border-radius: 8px;
+}
+
+#top h1 {
+	cursor: default;
 }
