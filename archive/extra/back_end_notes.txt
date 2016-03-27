@@ -1,0 +1,31 @@
+Prototyping
+
+First Challenge: Can we build a map query with multiple lines using Google Maps API?
+	- Lets stat with a limited-area map. 
+	- Start with only two sets of premade coordinates.
+	
+
+
+
+Functionality:
+	- Map Draw
+	- Multiple User Index
+
+
+
+Stretch Functionality:
+	- Have lines change per user input
+	- Give map user-custom features, like Markers
+
+
+
+
+
+
+
+**** reference: image ****
+https://maps.googleapis.com/maps/api/staticmap?size=1200x400&path=color:red%7Cweight:2%7C-35.7297745,174.1291597%7C-35.744471441965,174.37021155622&path=color:blue%7Cweight:2%7C-35.7297745,174.3291597%7C-35.662336702516,174.28593575266
+****
+**** reference: overstack ****
+http://stackoverflow.com/questions/30162073/google-map-static-image-with-multiple-paths
+****

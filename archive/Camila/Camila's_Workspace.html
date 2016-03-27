@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	<div id="top">
+		<title> Share your Journey | Miami</title>
+
+		<h1>Miami Roadtrip</h1>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta charset="utf-8">
+
+
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="horizontal.css"/>
+
+							<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+							<script type="text/javascript"
+					src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+							<script type="text/javascript" src="gmaps.js"></script>
+
+
+						<style>
+						#map{
+					 	height: 350px;
+					 	width: 100%;
+						}
+						</style>
+
+			
+
+			<nav>
+				<ul>
+					<a href="index.html"> Trip</a>
+					<a href="#About"> About</a>
+					<a href="contact.html">Contact</a>
+
+				</ul>
+
+			</nav>
+
+	</head>
+
+	</div>
+	<body>
+
+
+		<div class="wrap">
+
+			<header>
+
+				<label for="slide-1-trigger">Slide One</label>
+				<label for="slide-2-trigger">Slide Two</label>
+				<label for="slide-3-trigger">Slide Three</label>
+				<label for="slide-4-trigger">Slide Four</label>
+
+
+			</header>
+
+			<input id="slide-1-trigger" type="radio" name="slides" checked>
+			<section class="slide slide-one">
+				<!-- <h2> Headline One </h2> -->
+			</section>
+			<input id="slide-2-trigger" type="radio" name="slides">
+			<section class="slide slide-two">
+<!-- 				<h3> Headline Two </h3>
+ -->			</section>
+			<input id="slide-3-trigger" type="radio" name="slides">
+			<section class="slide slide-three">
+				<!-- <h4> Headline Three </h4> -->
+			</section>
+			<input id="slide-4-trigger" type="radio" name="slides">
+			<section class="slide slide-four">
+				<!-- <h5> Headline Four </h5> -->
+			</section>
+		
+
+
+
+		</div>
+
+
+								<div id="map"></div>
+
+								  <script>
+								    $(document).ready(function(){
+
+
+
+									var map = new GMaps({
+									  div: '#map',
+									  zoom: 8,
+									  lat: 26.280131, 
+									  lng: -81.033708
+									});
+
+									var user100 = {
+									  	name: 'Jack Sparrow',
+									  	id: '100',
+									  	drawProps: {
+									    origin: [26.738970, -81.470104],
+									    destination: [25.750886, -80.126959],
+									    travelMode: 'driving',
+									    strokeColor: 'green'
+									}};	
+
+
+									map.drawRoute({
+								  		origin: user100.drawProps.origin,
+								  		destination: user100.drawProps.destination
+									});
+
+
+										// map.drawRoute({
+										//   origin: [26.738970, -81.470104],
+										//   destination: [25.750886, -80.126959],
+										//   travelMode: 'driving',
+										//   strokeColor: 'green'
+										// });
+
+										// map.drawRoute({
+										//   origin: [25.934843, -81.291886],
+										//   destination: [26.612117, -80.421220],
+										//   travelMode: 'driving',
+										//   strokeColor: 'red'
+										// });
+
+
+
+
+
+
+									 }); // closes ready function
+								    
+								    
+								    
+								  </script>
+
+		<div></div>
+		
+
+
+		<span id="About">
+		<h2>About</h2>
+		
+
+		<footer>
+			<a href="http://twitter.com"><img src="http://www.thewrap.com/wp-content/uploads/2015/07/twitter-logo-618.jpg" alt="Twitter Logo"></a>
+			<a href="http://facebook.com"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" alt="Facebook Logo"></a>
+
+
+
+			<p>&copy; Pistol & Hawk - Hack Reactor Prep 2016</p>
+
+
+		</footer> 
+
+
+	</body>
+
+
+
+
+</html>	

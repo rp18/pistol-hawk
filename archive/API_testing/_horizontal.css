@@ -9,11 +9,7 @@ body {
 	background-color: white;
 }
 
-<<<<<<< HEAD
-a {
-=======
 a{
->>>>>>> 8819185e74ac2585b5486ca74950f92af9365427
 	text-decoration: none;
 	color: hsl(12, 90%, 65%);
 
@@ -34,63 +30,28 @@ h2{
 
 }
 
-<<<<<<< HEAD
-h3{
-
-	color: #EBEBEB;
-	font-family:'Kaushan Script';
-	font-size: 35px;
-
+{
+	color: gray;
 }
 
-
-
-footer {
-
-	color: #F2F2F2;
-	margin: 0 auto;
-	text-align: right;
-	background: LightBlue;
-	padding-bottom: none;
-}
-
-footer, .push {
-    height: 45px;
-}
-
-footer p {
-	color: white;
-
-=======
 
 footer{
 
 	color: green;
 	margin: 0 auto;
 	text-align: right;
->>>>>>> 8819185e74ac2585b5486ca74950f92af9365427
 }
 
 #top{
 	max-width: 100%;
-<<<<<<< HEAD
-	height: 115px;
-=======
 	height: 100px;
->>>>>>> 8819185e74ac2585b5486ca74950f92af9365427
 	margin: 0 auto;
 	text-align: center;
 	font-size: 160%;
 }
 
-<<<<<<< HEAD
-.descript p {
-=======
 p {
->>>>>>> 8819185e74ac2585b5486ca74950f92af9365427
-	font-family: 'Poiret One', cursive;
-	color: white;
-	font-size: 27px;
+	color: gray;
 }
 
 .wrap {
@@ -114,11 +75,7 @@ header {
 }
 
 header label {
-<<<<<<< HEAD
-	
-=======
 
->>>>>>> 8819185e74ac2585b5486ca74950f92af9365427
 	color: #788188;
 	cursor: pointer;
 	display: inline-block;
@@ -173,18 +130,10 @@ header label:hover {
 	transition: all .5s .5s;
 }
 
-<<<<<<< HEAD
-
-#all-users a {
-	background-color: rgb(200, 230, 255);
-/*	padding: 4px;
-	border-radius: 3px;*/
-=======
 #all-users a {
 	background-color: rgb(200, 230, 255);
 	padding: 4px;
 	border-radius: 3px;
->>>>>>> 8819185e74ac2585b5486ca74950f92af9365427
 }
 
 #story {
@@ -192,13 +141,8 @@ header label:hover {
 }
 
 blockquote {
-<<<<<<< HEAD
-  background: hsla(20, 100%, 94%, 0.60);
-  border-left: 10px solid hsl(12, 90%, 65%);
-=======
   background: hsla(20, 100%, 94%, 0.55);
   border-left: 10px solid #ccc;
->>>>>>> 8819185e74ac2585b5486ca74950f92af9365427
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
@@ -225,55 +169,4 @@ blockquote p {
 
 .story-style p {
 	opacity: 1.0;
-<<<<<<< HEAD
-	color: black;
-=======
->>>>>>> 8819185e74ac2585b5486ca74950f92af9365427
-}
-
-#map{
-      height: 500px;
-        width: 100%;
-      }
-
-.thumbnail {
-    width: 100px;
-    height: 100px;
-    float: left;
-}
-
-#user_list a {
-	text-decoration: none;
-	cursor: pointer;
-<<<<<<< HEAD
-}
-
-#all-users > a {
-	text-decoration: none;
-	cursor: pointer;
-	background-color: white;
-}
-
-#user_list ul {
-	/*background-color: lightBlue;*/
-	border-radius: 10px;
-	border: 2px solid lightBlue;
-	cursor: pointer;
-	width: 50%;
-}
-
-#user_list li {
-	margin: 4px 0px 4px 0px;
-}
-
-#user_list li:hover {
-	border: 2px solid lightBlue;
-	background-color: white;
-	border-radius: 8px;
-}
-
-#top h1 {
-	cursor: default;
-=======
->>>>>>> 8819185e74ac2585b5486ca74950f92af9365427
 }
