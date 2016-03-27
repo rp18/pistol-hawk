@@ -11,7 +11,7 @@ var map = new GMaps({
   },
 });
 
-// map draw function for a user
+// draws on user using GMaps
 var drawOneUser = function drawOneUser(user){
   map.removePolylines();
   map.drawRoute({
@@ -21,20 +21,18 @@ var drawOneUser = function drawOneUser(user){
     }); // map.drawRoute()
 }; // drawOneUser()
 
-// map draw function for all users
 var drawAllUsers = function drawAllUsers(index){
   index.forEach(function(user){
     drawOneUser(user);
     }); // index.forEach()
   }; // drawAllUsers()
 
-
-// Creates user-list
-var createList = function(users){
-  for (var i = 0; i < users.length; i++) {
+var createList = function(userArr){
+    for (var i = 0; i < userArr.length; i++) {
     $("#user_list ul").append(
-      "<li id='" + users[i].id + "' <\/li>" +
-      "<a>" + users[i].name + "<\/a>" +
-      "<\/li>")
+      "<li id='" + userArr[i].id + "' <\/li>" +
+      "<a>" + userArr[i].name + "<\/a>" +
+      "<\/li>"
+      ); // .append
     }; // for loop
-  }; // function expression
+  }; // createList()
