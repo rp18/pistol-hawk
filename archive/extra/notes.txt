@@ -1,0 +1,37 @@
+HTML/CSS
+ - 2 Dummy users, with stock images
+ - List of 6 coordinates
+ - Sections
+		 - User list
+ -With user info
+		 -Maps
+
+  <div id="user_list">
+    <ul>
+      <li id="all-users"><a href="#all-users">All Travellers</a></li>
+    </ul>
+  </div>
+
+
+
+our project:
+We're Pistol Hawk from Remote Prep18. We created a unique social media site for adventurers to share their journeys. Each traveler maps their route which is displayed using the powerful Google Maps API. You can share the different episodes of your journey.
+
+
+JS Side
+ - Learn the API
+ - Prototype indexing system on Wed
+ - Determine best approach come Wed
+ - Design user variable system
+
+
+
+
+Library Links:
+	- JQuery
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
+
+
+	-our JS file
+	<script src="journey_share.js"></script>
+	

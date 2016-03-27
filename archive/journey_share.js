@@ -1,29 +1,5 @@
 $(document).ready(function(){
 
-<<<<<<< HEAD
-// creates user list in HTML
-createList(userIndex);
-
-// onClick to draw all users
-$('#all-users').on("click", function(){
-  drawAllUsers(userIndex);
-  $("#story").empty();
-});
-
-// onClick for user actions; including map draw and story/metadata
-$('#user_list > ul > li').on("click", function(){
-  var id = $(this).attr("id")
-  userIndex.forEach(function(user, index){
-    if (user.id == id){
-      drawOneUser(user);
-      $("#story").html("<div class='story-style col-sm-3'><blockquote><img class='thumbnail' src='" + user.image + "' alt=''><p>" + user.storyText + "</p></blockquote></div>");
-    }; // if
-  }); // .forEach
-}); // onClick for user actions
-
-
-}); // .ready()
-=======
   var map = new GMaps({
     div: '#map',
     zoom: 8,
@@ -123,14 +99,6 @@ $('#user_list > ul > li').on("click", function(){
         "<\/li>"
         )
     };
-    // a repeat of previous lines for some reason.
-    //   for (var i = 0; i < userIndex.length; i++) {
-    //   $("#user_list ul").append(
-    //     "<li id='" + userIndex[i].id + "' <\/li>" +
-    //     "<a>" + userIndex[i].name + "<\/a>" +
-    //     "<\/li>"
-    //     )
-    // };
 
     $('#all-users').on("click", function(){
       drawAllUsers(userIndex);
@@ -160,4 +128,3 @@ $('#user_list > ul > li').on("click", function(){
 
 }); // .ready()
 
->>>>>>> 8819185e74ac2585b5486ca74950f92af9365427

@@ -1,0 +1,22 @@
+Prototype
+First Challenge: Can we create a Google Map with multiple lines?
+
+learn google maps API
+Gmap3 library?
+
+functions needed
+	- User Object index
+		- {
+			name,
+			start end coordinates,
+			color,
+			metadata: journal entry, pics
+		}
+	- query string builder
+	- GET google map API
+
+
+Stretch Functionaility
+	- User input
+		- Coordinates
+

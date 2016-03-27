@@ -1,0 +1,52 @@
+Prototyping
+
+/// Completed ///
+*First Challenge: Can we build a map query with multiple lines using Google Maps API?
+	- Lets stat with a limited-area map. 
+	- Start with only two sets of premade coordinates.
+	- Miami area
+		- NW: 26.738970, -81.470104
+		- SE: 25.750886, -80.126959
+
+
+
+//// Current Task ////
+*Second Challenge: Fix refresh problem with drawOneUser
+
+
+
+///////////////////
+Functionality:
+*done - Map Draw 
+*done - Multiple Renderings 
+*done - Multiple User Index 
+
+
+
+Stretch Functionality:
+	- Overlays!!!! --- first choice ----
+	- Have lines change per user input
+	- Give map user-custom features, like Markers
+
+
+
+
+Stuff:
+	- Google Maps Dev API Key:
+		- created under michael.ivanhoe@gmail.com , project name Pistol_Hawk
+		- AIzaSyDNzgRyUJWCyTqC1NwWq-QRnTVhAkDt-s8 (not sure how necessary this is)
+
+
+
+
+
+
+**** reference: image ****
+https://maps.googleapis.com/maps/api/staticmap?size=1200x400&path=color:red%7Cweight:2%7C-35.7297745,174.1291597%7C-35.744471441965,174.37021155622&path=color:blue%7Cweight:2%7C-35.7297745,174.3291597%7C-35.662336702516,174.28593575266
+****
+**** reference: overstack ****
+http://stackoverflow.com/questions/30162073/google-map-static-image-with-multiple-paths
+****
+**** JS Fiddle google map example of multiple rendering ***
+http://jsfiddle.net/doktormolle/wLeBh/14/
+****
